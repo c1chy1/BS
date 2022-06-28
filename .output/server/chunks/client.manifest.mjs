@@ -1,0 +1,75 @@
+const client_manifest = {
+  "node_modules/nuxt/dist/app/entry.mjs": {
+    "file": "entry-b776fcc2.mjs",
+    "src": "node_modules/nuxt/dist/app/entry.mjs",
+    "isEntry": true,
+    "dynamicImports": [
+      "pages/datenschutz.vue",
+      "pages/impressum.vue",
+      "pages/index.vue",
+      "layouts/default.vue"
+    ],
+    "css": [
+      "entry.83c0a0d1.css"
+    ],
+    "assets": [
+      "Calibri.94ad5be3.woff2",
+      "Calibri-Bold.31fd5309.woff2"
+    ]
+  },
+  "pages/datenschutz.vue": {
+    "file": "datenschutz-6ac71da9.mjs",
+    "src": "pages/datenschutz.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_SeoHead-1cfb2fa2.mjs",
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "_SeoHead-1cfb2fa2.mjs": {
+    "file": "SeoHead-1cfb2fa2.mjs",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/impressum.vue": {
+    "file": "impressum-c10cad2c.mjs",
+    "src": "pages/impressum.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_SeoHead-1cfb2fa2.mjs",
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/index.vue": {
+    "file": "index-fae63bba.mjs",
+    "src": "pages/index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_SeoHead-1cfb2fa2.mjs",
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_Button-e86be881.mjs"
+    ]
+  },
+  "_Button-e86be881.mjs": {
+    "file": "Button-e86be881.mjs",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "layouts/default.vue": {
+    "file": "default-78ab3c63.mjs",
+    "src": "layouts/default.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_Button-e86be881.mjs"
+    ],
+    "css": [
+      "default.57dddd35.css"
+    ]
+  }
+};
+
+export { client_manifest as default };
+//# sourceMappingURL=client.manifest.mjs.map

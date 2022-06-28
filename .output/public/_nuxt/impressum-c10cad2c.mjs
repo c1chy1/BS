@@ -1,0 +1,1 @@
+import{_ as o}from"./SeoHead-1cfb2fa2.mjs";import{_ as c,o as t,c as n,a as r,b as e}from"./entry-b776fcc2.mjs";const a={},_=e("div",{class:"min-h-screen"},[e("h1",null,"Impressum")],-1);function m(i,p){const s=o;return t(),n("section",null,[r(s,{title:"Impressum",description:"Impressum"}),_])}var d=c(a,[["render",m]]);export{d as default};

@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "start": "nuxt start"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^5.0.4",
+    "nuxt": "3.0.0-rc.4"
+  },
+  "dependencies": {
+    "nuxt-start": "^2.15.8"
+  }
+}

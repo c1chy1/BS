@@ -1,0 +1,60 @@
+@tailwind base;
+
+@layer base {
+
+    html {
+        @apply scroll-smooth
+    }
+
+    h1 {
+        @apply pb-4 text-3xl lg:text-5xl font-bold text-left leading-none
+    }
+
+    h2 {
+        @apply text-3xl font-bold md:text-4xl xl:text-5xl uppercase py-5 leading-4;
+    }
+
+    h3 {
+        @apply font-bold py-4 text-xl lg:text-5xl;
+    }
+
+    h4 {
+        @apply font-bold py-4 ;
+    }
+    a {
+
+        @apply cursor-pointer
+    }
+
+    a:hover {
+
+        @apply text-bs-red
+    }
+
+}
+
+@layer components {
+    .filter-white {
+        filter: invert(100%) sepia(100%) saturate(17%) hue-rotate(240deg) brightness(104%) contrast(100%);
+    }
+}
+
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url('assets/fonts/Calibri.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Calibri Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('assets/fonts/Calibri-Bold.woff2') format('woff2');
+}
