@@ -1,5 +1,5 @@
 
-export interface MenuItem {
+export interface MobileMenu {
     label: string
     id: string
 }
